@@ -799,14 +799,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #3e3c45;
+			background-color: #8A585F;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #262429;
+			background-color: #58111A;
 		}
 
 		input[type="submit"].icon,
@@ -859,14 +859,14 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: rgba(144, 144, 144, 0.075);
+				background-color: #8A585F;
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: rgba(144, 144, 144, 0.2);
+				background-color: #58111A;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -880,7 +880,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #58111A;
 			color: #ffffff !important;
 		}
 
@@ -888,7 +888,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #f44066;
+				background-color: #8A585F;
 			}
 
 			input[type="submit"].special:active,
@@ -1057,8 +1057,11 @@
 
 	#banner {
 		padding: 16em 0 13em 0;
+/*
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+*/
+		background-image: url("../images/Book-Sale-Nov-2022-Web-Banner.png"), url("../images/Shredding-Event-Banner.png"), url("../images/2022-WI-Science-Fest-banner.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1101,7 +1104,7 @@
 	}
 
 		.wrapper.style2 {
-			background-color: #f6f6f6;
+			background-color: #585B76;
 		}
 
 		.wrapper.style3 {
