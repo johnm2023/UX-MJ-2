@@ -28,7 +28,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #181818;
+		color: #503A2D;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
@@ -779,7 +779,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #58111A;
+		background-color: 503A2D;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -806,7 +806,7 @@
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #58111A;
+			background-color: #503A2D;
 		}
 
 		input[type="submit"].icon,
@@ -866,7 +866,7 @@
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: #58111A;
+				background-color: #503A2D;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -880,7 +880,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #58111A;
+			background-color: #503A2D;
 			color: #ffffff !important;
 		}
 
@@ -1101,12 +1101,12 @@
 	}
 
 		.wrapper.style2 {
-			background-color: #585B76;
+			background-color: #504546;
 		}
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("images/library.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -1127,7 +1127,7 @@
 
 	#footer {
 		padding: 8em 0 6em 0;
-		background: #f6f6f6;
+		background: #504546;
 		color: #aaa;
 		text-align: center;
 	}
