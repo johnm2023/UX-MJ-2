@@ -11,7 +11,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #58111A;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -58,7 +58,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #484848;
+		color: #2C090D;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -502,11 +502,15 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		height: 200px;
+		width: 200px;
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
+			max-height: 100%;
+			max-width: 100%;
 		}
 
 		.image.left {
@@ -775,7 +779,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #58111A;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -891,7 +895,7 @@
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #f21040;
+				background-color: #460E15;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -936,7 +940,7 @@
 	}
 
 		#header h1 {
-			color: #484848;
+			color: #2C090D;
 			font-weight: 400;
 			height: inherit;
 			left: 1.25em;
