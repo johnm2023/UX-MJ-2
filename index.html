@@ -36,14 +36,14 @@
 				<h1><strong><a href="index.html">Pewaukee</a></strong> Public Library</h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">local_library</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">app_shortcut</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">diversity_3</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">help</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">campaign</span></a></li>
-						<li><a href="elements.html"><span class="material-symbols-outlined">menu_book</span></a></li>
-						<li><a href="index.html"><span class="material-symbols-outlined">person</span></a></li>
+						<li><a href="index.html"><span title="Home" class="material-symbols-outlined">home</span></a></li>
+						<li><a href="index.html"><span title="About" class="material-symbols-outlined">local_library</span></a></li>
+						<li><a href="index.html"><span title="eResources" class="material-symbols-outlined">app_shortcut</span></a></li>
+						<li><a href="index.html"><span title="Programs & Services" class="material-symbols-outlined">diversity_3</span></a></li>
+						<li><a href="index.html"><span title="Frequently Asked Questions" class="material-symbols-outlined">help</span></a></li>
+						<li><a href="index.html"><span title="Get Involved" class="material-symbols-outlined">campaign</span></a></li>
+						<li><a href="elements.html"><span title="Catalog" class="material-symbols-outlined">menu_book</span></a></li>
+						<li><a href="index.html"><span title="My Account" class="material-symbols-outlined">person</span></a></li>
 					</ul>
 				</nav>
 			</header>
@@ -54,17 +54,40 @@
 				<h2>Spatial</h2>
 				<p>Lorem ipsum dolor sit amet nullam consequat <br /> interdum vivamus donce sed libero.</p>
 -->
-<!--
-				<img class="mySlides" src="img_snowtops.jpg">
-				<img class="mySlides" src="img_lights.jpg">
-				<img class="mySlides" src="img_mountains.jpg">
-				<img class="mySlides" src="img_forest.jpg">
--->
 				<ul class="actions">
 					<li><a href="#" class="button special big">Learn More</a></li>
 				</ul>
 			</section>
 
+		<section>
+			<img class="mySlides" style="width:100%" alt="book sale" src="images/Book-Sale-Nov-2022-Web-Banner.png">
+			<img class="mySlides" style="width:100%" alt="science" src="images/2022-WI-Science-Fest-banner.png">
+			<img class="mySlides" style="width:100%" alt="shredding" src="images/Shredding-Event-Banner.png">
+			<div class="w3-center w3-display-bottommiddle" style="width:100%">
+    			<div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+    			<div class="w3-right" align="right" onclick="plusDivs(1)">&#10095;</div>
+  			</div>
+              <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+		</section>
+		
 		<!-- One -->
 				<section id="one" class="wrapper style1">
 					<div class="container">
@@ -92,7 +115,7 @@
 							<div class="6u 12u$(xsmall)">
 								<div class="image fit captioned">
 									<img src="images/wtwtimage.jpg" alt="" />
-									<h3>Children's Book of the Month: Where The Wild Things Are</h3>
+									<h3>Kids Book of the Month: Where The Wild Things Are</h3>
 								</div>
 							</div>
 							<div class="6u$ 12u$(xsmall)">
@@ -102,10 +125,6 @@
 								</div>
 							</div>
 						</div>
-						<ul class="actions">
-							<li><a href="#" class="button special big">Nulla luctus</a></li>
-							<li><a href="#" class="button big">Sed vulputate</a></li>
-						</ul>
 					</div>
 				</section>
 		

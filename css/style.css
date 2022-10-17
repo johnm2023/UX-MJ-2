@@ -1057,11 +1057,8 @@
 
 	#banner {
 		padding: 16em 0 13em 0;
-/*
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
-*/
-		background-image: url("../images/Book-Sale-Nov-2022-Web-Banner.png"), url("../images/Shredding-Event-Banner.png"), url("../images/2022-WI-Science-Fest-banner.png");
+		background-image: url("images/overlay.png"), url("images/library.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
